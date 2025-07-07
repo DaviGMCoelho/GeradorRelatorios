@@ -11,8 +11,8 @@ class APIClient:
     Recebe os parâmetros necessários para a conexão com a API
     Params:
         scopes : Limitação de uso da API / Nível de acesso
-        sample_id : Identificação da planilha
-        sample_name : Título da aba que irá usar da planilha
+        creds : Credenciais de acesso
+        service : Serviço de utilização da API
     '''
     def __init__(self):
         self.scopes = ["https://www.googleapis.com/auth/spreadsheets"]
